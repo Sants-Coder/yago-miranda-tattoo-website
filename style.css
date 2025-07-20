@@ -28,17 +28,20 @@ body {
 
 ::-webkit-scrollbar {
     width: 9px;
-    height: 11px;
+    max-height: 17px;
 }
+
 ::-webkit-scrollbar-track {
-    background: var(--preto); 
+    background: var(--preto);
 }
+
 ::-webkit-scrollbar-thumb {
     background: var(--cinza);
     border-radius: 7px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(76, 76, 76); 
+    background: rgb(76, 76, 76);
 }
 
 /*cabeçalho*/
@@ -283,7 +286,8 @@ body {
 
 }
 
-/*Estilos*/
+/*
+Estilos
 
 .estilos-section {
     background-image: url(images/background-texture.jpeg);
@@ -320,7 +324,7 @@ body {
     font-family: var(--fonte-secundaria);
 
 }
-
+*/
 
 /*Portifolio*/
 
@@ -935,4 +939,31 @@ body {
     .contato-info {
         text-align: center;
     }
+
+    /*
+    .estilos-section h2 {
+        margin-bottom: 32px;
+        margin-top: 4rem;
+    }
+*/
+    .portifolio-section h2 {
+        margin-bottom: 32px;
+        margin-top: 4rem;
+    }
+
+    .faq-section h2 {
+        margin-bottom: 32px;
+        margin-top: 4rem;
+    }
+
+    .orcamento-conteudo h2 {
+        margin-bottom: 32px;
+        margin-top: 4rem;
+    }
+
+    .contato-section h2 {
+        margin-bottom: 32px;
+        margin-top: 4rem;
+    }
+
 }
