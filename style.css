@@ -230,18 +230,19 @@ body {
 .sobre-conteudo {
     border-radius: 20px;
     background-image: url(images/backgroundo-dark.png);
+    background-repeat: no-repeat;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .sobre-texto {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 1px;
 }
 
 .sobre-conteudo img {
