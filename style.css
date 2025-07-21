@@ -399,6 +399,76 @@ Estilos
     margin-top: 45px;
 }
 
+/*feedbacks*/
+.feedbacks-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url(images/background-texture.jpeg);
+    color: var(--branco);
+}
+
+.feedbacks-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: var(--fonte-principal);
+}
+
+.feedback-subtitle {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: var(--cinza);
+    font-family: var(--fonte-secundaria);
+}
+
+.feedback-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.feedback-card {
+    background-color: var(--preto);
+    border: 1px solid var(--cinza);
+    border-radius: 10px;
+    padding: 30px 20px;
+    max-width: 300px;
+    text-align: left;
+    width: 80%;
+}
+
+.feedback-text {
+    font-family: var(--fonte-secundaria);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.feedback-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feedback-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-author h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.feedback-author span {
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+
+
+
 /*FAQ*/
 
 .faq-section {
@@ -716,7 +786,8 @@ Estilos
 .links-rapidos ul li a:hover {
     color: var(-);
 }
-.footer-content > div {
+
+.footer-content>div {
     margin-bottom: 3rem;
 }
 
