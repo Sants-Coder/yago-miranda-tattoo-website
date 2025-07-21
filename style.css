@@ -715,6 +715,10 @@ Estilos
 .links-rapidos ul li a:hover {
     color: var(-);
 }
+.footer-content > div {
+    margin-bottom: 3rem;
+}
+
 
 
 /*icone do whatsApp flutuante */
@@ -958,7 +962,7 @@ Estilos
 
     .orcamento-conteudo h2 {
         margin-bottom: 32px;
-        margin-top: 4rem;
+        margin-top: 5rem;
     }
 
     .contato-section h2 {
